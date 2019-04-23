@@ -17,8 +17,7 @@ print('x is %d, y is %.2f, z is "%s"' % (x, y, z))
 
 # Use the 'format' string method to print the same thing
 
-output = 'x is {}, y is {}, z is "{}"'
-print(output.format(x, round(y, 2), z))
+print('x is {}, y is {:.2f}, z is "{}"'.format(x, y, z))
 
 # Finally, print the same thing using an f-string
-print(f'x is {x}, y is {round(y, 2)}, z is "{z}"')
+print(f'x is {x}, y is {y:.2f}, z is "{z}"')
