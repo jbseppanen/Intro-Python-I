@@ -15,16 +15,17 @@ x.extend(y)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
-x.remove(4)
+x.remove(8)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
-x.insert(5, 99)
+x.insert(-1, 99)
 print(x)
 
 # Print the length of list x
 print(len(x))
 
 # Print all the values in x multiplied by 1000
-for i in x:
-    print(i * 1000)
+# for i in x:
+#     print(i * 1000)
+print([n*1000 for n in x])
